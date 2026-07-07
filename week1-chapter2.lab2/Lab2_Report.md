@@ -1,8 +1,5 @@
 # [Lab 2] Designing Specific Tasks with Structured Prompts
 ## Lab 2-1: Step-by-Step Prompt Element Practice
-
-**Mission:** Build a Professional Health Coach to explore how a vague request transforms into a high-quality, actionable AI response.
-
 For this one I used the Professional Health Coach example and just kept adding one element at a time to see where the response actually got better.
 
 **Step 0 — no elements:**
