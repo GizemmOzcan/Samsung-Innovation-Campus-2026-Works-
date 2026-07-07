@@ -153,7 +153,8 @@ Student situation: understands the material but hasn't reinforced it, has quit s
 plans by day 2 before, biggest distraction is phone/social media, tends to procrastinate.
 ```
 
-![İlk sonuç - template çıktısı](images/lab2-4-first-result.png)
+<img width="465" height="571" alt="Ekran görüntüsü 2026-07-08 002232" src="https://github.com/user-attachments/assets/f9102032-478b-4239-a549-551dd19d47cf" />
+
 
 It came back with something that was actually pretty solid for the first week — day by day, starting light (just reading/notes for the first two days: Arrays, then Linked Lists), then gradually adding practice problems as it moved into Strings, Linked Lists, and Stacks. For the adherence part, it said to keep the phone in another room while studying and to anchor the study session to the same daily trigger (e.g. right after dinner).
 
@@ -183,7 +184,10 @@ Since the only real problem was weeks 2-3 getting summarized instead of broken o
   No grouping, no summarizing multiple days into one row — every single day gets its own row.
 ```
 
-![Tuned sonuç - final çıktı](images/lab2-5-tuned-result.png)
+<img width="473" height="692" alt="Ekran görüntüsü 2026-07-08 002259" src="https://github.com/user-attachments/assets/04c2bea8-821f-4f3a-aa43-9974ab5ad7c2" />
+<img width="490" height="367" alt="image" src="https://github.com/user-attachments/assets/7aade867-b81f-4358-b272-bb9760f22d67" />
+
+
 
 Running it again with that one change fixed it — this time it actually wrote out all 21 days individually at the same level of detail: week 1 stayed essentially the same (arrays, strings, linked lists, stacks), week 2 broke Queues, Recursion, Hash Tables, and Trees into their own separate days instead of one lumped paragraph, and week 3 did the same for Tree traversals, Heaps, Graphs, Sorting, and Searching, ending with a full mock test on day 21. The adherence and risk parts didn't really change content-wise — phone-in-another-room, a fixed daily trigger, and a "no-zero rule" (10-minute minimum on bad days) — since formatting granularity, not the coaching rules, was the actual problem.
 
