@@ -57,9 +57,6 @@ It organized everything into a short intro, a 3-day table (day/exercise/duration
 ---
 
 ## Lab 2-2: Creating My Own AI Study Coach with Prompt Engineering
-
-**Mission:** Design an AI Study Coach that generates a realistic, adherence-focused study plan based on a scenario.
-
 The scenario I used was a student who has a Data Structures final in 3 weeks, understands the material but can't stick to a study plan for more than 2 days, only has 2 hours a day free, and gets distracted by their phone constantly.
 
 The thing is, if you just ask an AI "make me a study plan for this exam," it'll give you something that looks fine on paper — Week 1: this topic, Week 2: that topic — but it completely ignores the actual problem, which isn't *what* to study, it's *sticking to it*. So I wrote the prompt specifically to force the AI to think about that:
@@ -86,8 +83,6 @@ When I actually ran this, it came back with something reasonable: first two days
 ---
 
 ## Lab 2-3: Structured Prompt Design
-
-**Mission:** Crafting the Master Template by organizing study coach instructions into a clear, hierarchical structure that the AI can parse with high accuracy.
 
 This step was about turning the Lab 2-2 prompt into something reusable — separating what never changes (the coaching rules) from what changes every time (subject, hours, student's situation). So instead of one big paragraph, I split it into a fixed "system" part and a small "fill in the blanks" part:
 
@@ -130,8 +125,6 @@ Build a study plan based on this.
 
 ## Lab 2-4: Model Execution and 1st Result Check
 
-**Mission:** Test your structured prompt and evaluate the AI's response based on the "Reality Rules" you defined in the template.
-
 Filled in the template and ran it:
 
 ```
@@ -162,8 +155,6 @@ Everything else held up against what I was checking for — it stayed under 2 ho
 ---
 
 ## Lab 2-5: Prompt 1st Tuning and Re-execution
-
-**Mission:** Refine your template based on the evaluation from Lab 2-4 to achieve the highest level of adherence and realism in the study plan.
 
 Since the only real problem was weeks 2-3 getting summarized instead of broken out day by day, I went back and made that explicit in the output format instead of leaving it implied:
 
