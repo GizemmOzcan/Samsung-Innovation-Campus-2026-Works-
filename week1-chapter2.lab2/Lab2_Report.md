@@ -1,12 +1,4 @@
 # [Lab 2] Designing Specific Tasks with Structured Prompts
-
-**Samsung Innovation Campus - Chapter 2: Prompt Engineering Basics**
-
-## Lab Objective
-To master the prompt engineering cycle by systematically assembling prompt elements and tuning the results for optimal quality.
-
----
-
 ## Lab 2-1: Step-by-Step Prompt Element Practice
 
 **Mission:** Build a Professional Health Coach to explore how a vague request transforms into a high-quality, actionable AI response.
